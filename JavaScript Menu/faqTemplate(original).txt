@@ -1,0 +1,55 @@
+<?php
+/*
+Template Name: FAQ Page
+*/
+?>
+
+<html>
+	<head>
+		<title>FAQ</title>
+	</head>
+	
+	<body>
+		<header>
+			<h1>
+				Frequently Asked Questions1
+			</h1>
+		</header>
+	
+		<article>
+			<h3>
+				What's the point of this website?
+			</h3>
+		
+			<p>
+				We recognized a need for beautiful photographs of people turned around, and we filled it.
+			</p>
+		
+			<h3>
+				Isn't that weird?
+			</h3>
+			
+			<p>
+				Once man's weird is another man's Rembrandt.
+			</p>
+			
+			<h3>
+				What does that even mean?
+			</h3>
+			
+			<p>
+				It means if you don't appreciate our amazing faceless photographs, you can go to another website and find plenty of pictures that have faces in them. Good day.
+			</p>
+			
+		</article>
+		
+		<footer>
+			<p>
+				<a href="http://nathanreinauer.prosperitacademy.com">Back.</a>
+			</p>
+		</footer>
+	</body>
+		
+
+
+</html>

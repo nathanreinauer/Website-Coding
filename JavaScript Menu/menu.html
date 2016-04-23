@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- CSS -->
+	<style>
+		button {
+			background-color: red;
+			color: white;
+			height: 30px;
+			width: 80px;
+			border: none;
+		}
+		
+		#div1 {
+			float: left;
+			border: 2px solid black;
+		}
+		
+		a {
+			color: white;
+			text-decoration: none;
+		}
+		
+		a:hover {
+			color: black;
+		}
+		
+	
+		
+	</style>	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+</head>
+<body>
+	<header>
+
+	
+	<div id="div1">
+		<button type="button" id="button1"><strong>MENU</strong></button><br>
+		
+		<div id="div2">
+			<button type="button" id="button2">
+				<a href="http://google.com">HOME</a>
+			</button><br>
+			<button type="button" id="button3">
+				<a href="http://google.com">ABOUT</a>
+			</button><br>
+			<button type="button" id="button4">
+				<a href="http://google.com/">SERVICES</a>
+			</button>
+		</div>
+	</div>
+	
+	</header>
+
+
+
+
+<!-- JavaScript -->
+<script>
+
+$(document).ready(function() {
+	//hides menu with three buttons
+	$("#div2").hide();
+	//and when you mouseover the button...
+	$("#button1").mouseover(function() {
+	//...the hidden menu drops down
+		$("#div2").slideDown();
+	});
+	
+	//then, when the mouse leaves the main button AND menu together...
+	$("#div1").mouseleave(function() {
+	//...the menu slides back up like magic
+		$("#div2").slideUp();	
+	});
+});
+	
+</script>
+
+
+</body>
+</html>
